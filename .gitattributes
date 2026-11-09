@@ -1,0 +1,12 @@
+# 统一换行符，避免 Windows / macOS / Linux 之间产生无意义的 diff
+* text=auto eol=lf
+
+# 明确二进制类型，避免被当成文本处理
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
